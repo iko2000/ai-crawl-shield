@@ -19,7 +19,7 @@ Drops a `robots.txt` in your `public/` folder that tells AI crawlers to back off
 
 ## Install
 ```bash
-npm install next-ai-shield
+npm install ai-corwl-shield
 ```
 
 Done. It runs on install and sets everything up.
@@ -44,7 +44,7 @@ No problem. It backs up your existing file to `robots.txt.backup` before making 
 
 If you want to run it yourself instead of on install:
 ```javascript
-const { setup } = require('next-ai-shield');
+const { setup } = require('ai-crowl-shield');
 setup();
 ```
 
