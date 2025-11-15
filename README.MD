@@ -18,11 +18,13 @@ I built this because I was tired of seeing GPTBot  hammering my Next.js sites. O
 Drops a `robots.txt` in your `public/` folder that tells AI crawlers to back off. Regular search engines (Google, Bing) still work fine - this only blocks the training bots.
 
 ## Install
+
 ```bash
-npm install ai-corwl-shield
+npm install ai-crowl-shield
+npx ai-crowl-shield setup
 ```
 
-Done. It runs on install and sets everything up.
+That's it. The setup command creates your robots.txt and you're done.
 
 ## What gets blocked
 
@@ -40,11 +42,11 @@ Your site still shows up in Google search. This just stops AI companies from usi
 
 No problem. It backs up your existing file to `robots.txt.backup` before making changes.
 
-## Manual setup
+## Programmatic usage
 
-If you want to run it yourself instead of on install:
+You can also call the setup function from your own scripts:
 ```javascript
-const { setup } = require('ai-crowl-shield');
+const setup = require('ai-crowl-shield');
 setup();
 ```
 
@@ -71,7 +73,6 @@ You could. But then you'd do it on every project, forget to update it, and have 
 ## Coming eventually
 
 - Config file so you can customize the blocklist
-- CLI tool for manual control
 - Maybe middleware support for dynamic serving
 
 ## Contributing

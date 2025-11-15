@@ -1,6 +1,6 @@
 # Next AI Shield
 
-Block AI crawlers from training on your Next.js site. Simple setup, zero maintenance.
+Block AI crawlers from training on your Next.js site. Install and forget.
 
 [![npm version](https://img.shields.io/npm/v/ai-crowl-shield.svg)](https://www.npmjs.com/package/ai-crowl-shield)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
