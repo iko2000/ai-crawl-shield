@@ -1,12 +1,14 @@
 {
   "name": "ai-crowl-shield",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "ai-crowl-shield": "dist/cli.js"
+  },
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build",
-    "postinstall": "node dist/scripts/postinstall.js"
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "dist/"
