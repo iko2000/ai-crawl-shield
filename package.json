@@ -1,6 +1,7 @@
 {
   "name": "ai-crowl-shield",
-  "version": "1.0.5",
+  "version": "2.0.0",
+  "description": "Block AI crawlers from training on your website content with a single command",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
@@ -8,11 +9,43 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": [
-    "dist/"
+  "keywords": [
+    "ai",
+    "crawler",
+    "robots.txt",
+    "gptbot",
+    "ccbot",
+    "anthropic",
+    "nextjs",
+    "react",
+    "vue",
+    "privacy",
+    "seo",
+    "web-scraping",
+    "ai-training",
+    "data-privacy"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthropics/ai-crowl-shield.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anthropics/ai-crowl-shield/issues"
+  },
+  "homepage": "https://github.com/anthropics/ai-crowl-shield#readme",
+  "license": "MIT",
+  "author": "",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "devDependencies": {
     "@types/node": "^20.0.0",
     "typescript": "^5.0.0"
